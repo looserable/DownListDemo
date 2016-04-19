@@ -15,6 +15,7 @@
 		57DF51C11C58AF12004716ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57DF51BF1C58AF12004716ED /* LaunchScreen.storyboard */; };
 		57DF51CC1C58AF12004716ED /* DownListDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57DF51CB1C58AF12004716ED /* DownListDemoTests.m */; };
 		57DF51D71C58AF12004716ED /* DownListDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57DF51D61C58AF12004716ED /* DownListDemoUITests.m */; };
+		57DF51E71C58AF90004716ED /* DownListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57DF51E61C58AF90004716ED /* DownListView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		57DF51D21C58AF12004716ED /* DownListDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DownListDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57DF51D61C58AF12004716ED /* DownListDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DownListDemoUITests.m; sourceTree = "<group>"; };
 		57DF51D81C58AF12004716ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57DF51E51C58AF90004716ED /* DownListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownListView.h; sourceTree = "<group>"; };
+		57DF51E61C58AF90004716ED /* DownListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownListView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		57DF51B01C58AF12004716ED /* DownListDemo */ = {
 			isa = PBXGroup;
 			children = (
+				57DF51E41C58AF22004716ED /* DownListView */,
 				57DF51B41C58AF12004716ED /* AppDelegate.h */,
 				57DF51B51C58AF12004716ED /* AppDelegate.m */,
 				57DF51B71C58AF12004716ED /* ViewController.h */,
@@ -138,6 +142,15 @@
 				57DF51D81C58AF12004716ED /* Info.plist */,
 			);
 			path = DownListDemoUITests;
+			sourceTree = "<group>";
+		};
+		57DF51E41C58AF22004716ED /* DownListView */ = {
+			isa = PBXGroup;
+			children = (
+				57DF51E51C58AF90004716ED /* DownListView.h */,
+				57DF51E61C58AF90004716ED /* DownListView.m */,
+			);
+			name = DownListView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57DF51E71C58AF90004716ED /* DownListView.m in Sources */,
 				57DF51B91C58AF12004716ED /* ViewController.m in Sources */,
 				57DF51B61C58AF12004716ED /* AppDelegate.m in Sources */,
 				57DF51B31C58AF12004716ED /* main.m in Sources */,
@@ -498,6 +512,7 @@
 				57DF51DD1C58AF12004716ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		57DF51DE1C58AF12004716ED /* Build configuration list for PBXNativeTarget "DownListDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +521,7 @@
 				57DF51E01C58AF12004716ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		57DF51E11C58AF12004716ED /* Build configuration list for PBXNativeTarget "DownListDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +530,7 @@
 				57DF51E31C58AF12004716ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
